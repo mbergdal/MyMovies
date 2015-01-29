@@ -1,0 +1,3 @@
+Add the ability to mark movies as a favorite.
+	- Favorites should be stored to a local file.
+	- The user should be able to list their favorites (also after a the program is restarted)
