@@ -1,3 +1,5 @@
+NB! Remember to write your tests first and make them fail before you implement the features.
+
 1. Add more information on the Movie entity
 	- The movie should have things like: year, rating, synopsis and so on. 
 
