@@ -7,9 +7,6 @@ import java.util.HashMap;
 /**
  * HTTP Client mockup used for testing purposes
  * 
- * @author <a href="mailto:tambug@gmail.com">Giordano Tamburrelli</a>
- * 
- * @version 1.0
  **/
 public class NetHttpClientMockUp implements NetHttpClientInterface {
 

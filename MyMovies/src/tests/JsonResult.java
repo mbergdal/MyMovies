@@ -3,9 +3,6 @@ package tests;
 /**
  * This class contains JSON strings representing fake API responses to be used only for testing purposes. 
  * 
- * @author <a href="mailto:tambug@gmail.com">Giordano Tamburrelli</a>
- * 
- * @version 1.0
  **/
 public class JsonResult {
 
