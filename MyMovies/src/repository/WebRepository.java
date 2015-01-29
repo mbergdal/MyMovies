@@ -32,7 +32,7 @@ public class WebRepository {
 		ArrayList<business.Movie> returnList = new ArrayList<>();
 		for (Movie movie : result) {
 			returnList.add(new business.Movie(movie));
-		}
+		}		
 		
 		return returnList;
 	}

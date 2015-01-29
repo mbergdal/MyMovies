@@ -1,0 +1,15 @@
+1. Add more information on the Movie entity
+	- The movie should have things like: year, rating, synopsis and so on. 
+
+2. The movies returned from the server are missing some of the details to save bandwidth. Get this additional info.
+	- Use the method getMovieAdditionalInfo(Movie movie) to get this information for a movie
+	- store this information in business.Movie wrapper and expose the relevant info as getter-methods 
+
+3. The movies does not have Reviews attached to them. But they can be fetched if you have the movie id. 
+	Use the API-explorer (see: README.txt) to explore this method in the API, and add 
+	this functionality to the program.
+
+3. Add the ability to mark movies as a favorite.
+	- Favorites should be stored to a local file.
+	- The user should be able to list their favorites (also after a the program is restarted)
+	
