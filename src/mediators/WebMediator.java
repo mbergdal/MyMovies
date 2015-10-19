@@ -12,11 +12,13 @@ public class WebMediator implements WebMediatorInterface {
 	private JTomato client;
 		
 	public WebMediator() {
-		 client = new JTomato("ut2px3dxzsbqa53dyzgghrb3");		 
+
+		client = new JTomato("ut2px3dxzsbqa53dyzgghrb3");
 	}
 	
 	public WebMediator(JTomato client){
-		this.client = client; 
+
+		this.client = client;
 	}
 		
 	@Override

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tomatoClient">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/tomatoClient.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

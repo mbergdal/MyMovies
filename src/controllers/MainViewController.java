@@ -10,13 +10,17 @@ public class MainViewController {
 	private FileMediatorInterface fileMediator;
 
 	public MainViewController(FileMediatorInterface fileMediator) {
+
 		this.fileMediator = fileMediator;
 	}
+
 	public void addMovieAsFavorite(MyMovie movie){
+
 		fileMediator.storeMovieAsFavorite(movie);
 	}
 	
 	public List<String> getFavoriteMovies(){
+
 		return fileMediator.getFavoriteIds();
 	}
 }
