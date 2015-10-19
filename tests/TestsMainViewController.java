@@ -18,7 +18,7 @@ public class TestsMainViewController {
 
 	@Test
 	public void addMovieAsFavorite_addsMovieAsFavorite() {
-		MainViewController controller = new MainViewController(new MockFileMediator());
+		MainViewController controller = new MainViewController(new MockFileMediator(), null);
 		MyMovie movie = new MyMovie(new Movie());
 		controller.addMovieAsFavorite(movie);
 		assertTrue(storeCalled);
@@ -26,7 +26,7 @@ public class TestsMainViewController {
 	
 	@Test
 	public void getFavoriteMovies_getsFavorites() {
-		MainViewController controller = new MainViewController(new MockFileMediator());
+		MainViewController controller = new MainViewController(new MockFileMediator(), null);
 		List<String> favoriteMovies = controller.getFavoriteMovies();
 		assertEquals("123", favoriteMovies.get(0));
 	}
