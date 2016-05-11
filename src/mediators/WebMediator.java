@@ -17,7 +17,6 @@ public class WebMediator implements WebMediatorInterface {
 	}
 	
 	public WebMediator(JTomato client){
-
 		this.client = client;
 	}
 		
